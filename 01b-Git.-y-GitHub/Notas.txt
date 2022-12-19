@@ -1,0 +1,27 @@
+Notas
+    Ciclos de vida de los archivos en Git
+
+    -Tracked: Dentro de Git, archivos ya guardados dentro del Repo con Git add y commit
+    -Staged: Archivos en Staging, dentro de Git hay registro de ellos pero no sus ultimos cambios, se ejecuto Git add pero no Git commit.
+    -Unstaged: Tracked pero Unstaged. NO GIT ADD NI GIT COMMIT, archivos con registro desactualizado.
+    -Untracked: Archivos que solo estan en el disco duro, no estan en Git. Nunca se afectaron con el comando Git add.
+
+-Staged y Untracked: Caso raro donde se guarda con Git commit pero antes se modifican archivos que no han sido guardados en el area de staging.
+
+Comandos Git:
+
+git status
+git add
+git reset HEAD
+git commit
+git rm
+    git rm --cached
+    git rm --force
+
+Branch 
+
+Es como un arbol compuesto por varias ramas:
+La rama gruesa o principal se denomina Master o main: donde se encuentra lo mas importante.
+Luego tenemos varias ramas secundarias como Branch Development (nuevas actualizaciones, caracteristicas y experimentos para unirse al master cuando esten listas) y el branch Hotfix ( donde se encuentran las soluciones de los errores que se unen al master cuando sea posible)
+El Merge es la union de esas ramas o branches
+
