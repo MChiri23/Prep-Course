@@ -1,0 +1,86 @@
+Definiciones
+
+>Que son las Variables? (VER)
+
+Las variables son asignaciones de todo tipo de valores (Ya sea un string, un number o boolean), 
+en un espacio de codigo con el nombre que yo le dé a esa variable.
+Esa asignacion se guarda en el programa hasta que invoque a esa variable, lo que me devuelve el valor guardado.
+
+Las formas de llamar a una variable son las siguientes:
+
+var <NOMBRE DE MI VARIABLE> = "String"      //Variable que puede modificarse en cualquier momento
+let <NOMBRE DE MI VARIABLE> = "String"      // No se su definicion pero tiene algo q ver con los scopes
+const <NOMBRE DE MI VARIABLE> = "String"    // Variable que no se puede modificar mas (Permanece constante)
+
+>Que son los Strings? (VER)
+
+Los Strings son un (tipo de texto) que mi programa identifica como "Solo texto".
+Los strings deben aclararse siempre entre comillas simples o dobles.
+La suma de dos o mas strings se llama concatenar y funciona de la siguiente manera:
+"Hola"+"mundo" // Holamundo
+'1'+'1'        // 11
+Un numero tambien puede ser denominado String siempre y cuando se escriba entre comillas dobles o simples.
+La multiplicacion de un String funciona de la siguiente manera:
+"Hola"*3        // HolaHolaHola
+"Hola"*"Hola"   // Error
+"4"*"3"         // 
+
+>Que son las funciones?
+Son tipos particulares de objetos, son callable objects u objetos invocables.
+Tienen las mismas propiedades que cualquier objeto.
+Ahora que tenemos las variables, necesitamos agruparlas y hacer algo con ellas.
+Por eso se utilizan las funciones.
+
+Formas de declarar una funcion:
+
+function <NOMBRE DE MI FUNCION> (<ARGUMENTO>) {
+    //Escribo mi codigo, si necesito que mi funcion sea util tengo que utilizar el argumento.
+    }
+    Ej:
+function APELLIDO ("Escribir apellido") {    
+    var nombre = "Luis"
+    console.log( "Mi nombre es " + nombre + Argumento)
+}
+APELLIDO (Martinez) // Mi nombre es Luis Martinez
+
+var otrafuncion = function (){}
+
+var yotra = () => {} 
+
+Argumento: Valor dentro de una funcion que le asigno cada vez que la invoco y me devuelve un resultado
+diferente cada vez que ingreso diferente argumento a mi funcion. 
+
+Return: Hace que mi funcion se "corte" en ese punto y no lea el codigo que prosigue. 
+
+> Que son las declaraciones o Statements (If, else)?
+Son condiciones que impongo para que me arroje un resultado u otro dependiendo si se cumple o no esa condicion.
+Por ejemplo:
+
+var x = 18
+if x<18:
+    console.log("Joven")
+    else
+    console.log("Viejo")
+
+Si utilizo los Statements If dentro de las funciones debo acordarme,
+que las condiciones que impongo deben hacerse con el "Argumento de la funcion" y no con una variable creada dentro del Statement.
+Ejemplo:
+
+function cualquiera(argumento) {
+    var variablecualquiera = argumento 
+    if (argumento == "Valor X") {
+        return ("Texto cualquiera")
+        }
+        else { return("Otro texto")}
+    }
+}
+
+>Valores booleanos
+
+Los Booleanos representan un valor verdadero = "True" o "False", los utilizamos en los Statements para definir condiciones.
+
+
+
+
+
+
