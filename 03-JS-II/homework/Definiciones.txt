@@ -1,0 +1,32 @@
+> Bucles For
+
+El bucle o loop For se utiliza para realizar una accion o varias repetidas veces hasta una condicion que impongo.
+La forma de programacion es la siguiente:
+
+for (var i=0            ;   i<10                             ;  i++) {
+    // Definir variable     condicion a la variable     incrementar la variable en una unidad(puede escribirse i=i+1)
+    Escribir mi codigo
+}
+
+Diferencia principal con While:
+- Menos posibilidad de cometer errores con for, ya que defino las condiciones en un principio.
+-Con While necesito (despues de mi codigo) incrementar la variable ya que el loop puede ser infinito y nunca terminar.
+
+> Simbolo && (Doble Ampersand) (Y) (AND)
+
+Este simbolo se utiliza en los Statements para incluir mas condiciones que necesito alcanzar en mi declaracion.
+Ambas condiciones deben cumplirse para que devuelva un valor "true" de mi declaracion.
+Si una de las dos o mas condiciones no se cumple, el valor sera "False".
+
+>Simbolo || (Doble raya) (O) (OR)
+
+Este simbolo se utiliza en los Statements para incluir mas condiciones opcionales que pueden cumplirse.
+Si se cumple una de las condiciones el valor arrojado sera "True".
+Si se cumple todas las condiciones el valor sera "True".
+Si no se cumple ninguna condicion el valor sera "False".
+
+>Simbolo ! (Negacion) (NOT)
+
+Este simbolo sirve para negar cualquier declaracion Booleana.
+!True   =   False
+!False  =   True
