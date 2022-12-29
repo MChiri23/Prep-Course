@@ -1,0 +1,25 @@
+>Arrays o arreglos
+
+Son matrices en forma de lista que creamos con valores impuestos por nosotros mismos.
+La manera de invocarlos es la siguiente:
+
+var arreglo = [0,1,2,"toni",null,funcion(),undefined, "etc"]
+
+Cada vez que llamamos al Array obtenemos la matriz en forma de lista.
+Podemos obtener el valor que querramos utilizando la enumeracion de la matriz sabiendo que comienza con el 0:
+arreglo[3] // Valor obtenido "toni" 
+
+Podemos crear Arrays vacios y luego colocarles valores con .push:
+
+var lista=[] ;
+lista.push ("toni") // El valor se agrega al final de la fila.
+console.log(lista) // ["toni"]
+
+Podemos quitarles valores a los Arrays con .pop:
+
+var lista=[1,2,3,4];
+lista.pop() ; // Me devuelve el ultimo valor y lo quita
+console.log(lista) // [1,2,3]
+
+Podemos hacer lo mismo con las propiedades de .unshift y .shift
+Con la diferencia que el valor agregado/quitado es el primero de la lista.
